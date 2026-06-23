@@ -1,28 +1,28 @@
 #!/usr/bin/env node
 /**
  * CLI tool entry point
- * Project ID: daa24e
+ * Project ID: 917c7c
  */
 
 'use strict';
 
 const { parseArgs } = require('util');
 
-const COMMANDS_daa24e = {
-  run: cmdRun_daa24e,
-  list: cmdList_daa24e,
-  version: cmdVersion_daa24e,
+const COMMANDS_917c7c = {
+  run: cmdRun_917c7c,
+  list: cmdList_917c7c,
+  version: cmdVersion_917c7c,
 };
 
-function cmdRun_daa24e(positionals, opts) {
+function cmdRun_917c7c(positionals, opts) {
   const task = positionals[0] || 'default';
   const output = opts.output || './output';
   console.log(`Running task: ${task}`);
   console.log(`Output: ${output}`);
-  console.log(`Instance: daa24e`);
+  console.log(`Instance: 917c7c`);
 }
 
-function cmdList_daa24e(positionals, opts) {
+function cmdList_917c7c(positionals, opts) {
   const filter = opts.filter || '';
   const items = ['task-a', 'task-b', 'task-c'].filter(
     (t) => !filter || t.includes(filter)
@@ -31,12 +31,12 @@ function cmdList_daa24e(positionals, opts) {
   items.forEach((item) => console.log(`  - ${item}`));
 }
 
-function cmdVersion_daa24e() {
+function cmdVersion_917c7c() {
   const pkg = require('./package.json');
-  console.log(`${pkg.name} v${pkg.version} (id: daa24e)`);
+  console.log(`${pkg.name} v${pkg.version} (id: 917c7c)`);
 }
 
-function printHelp_daa24e() {
+function printHelp_917c7c() {
   console.log(`Usage: tool <command> [options]
 
 Commands:
@@ -64,12 +64,12 @@ function main() {
   });
 
   if (values.help || positionals.length === 0) {
-    printHelp_daa24e();
+    printHelp_917c7c();
     process.exit(0);
   }
 
   const [cmd, ...rest] = positionals;
-  const handler = COMMANDS_daa24e[cmd];
+  const handler = COMMANDS_917c7c[cmd];
   if (!handler) {
     console.error(`Unknown command: ${cmd}`);
     process.exit(1);
