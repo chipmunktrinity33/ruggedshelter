@@ -1,28 +1,28 @@
 #!/usr/bin/env node
 /**
  * CLI tool entry point
- * Project ID: ef725a
+ * Project ID: fa91a9
  */
 
 'use strict';
 
 const { parseArgs } = require('util');
 
-const COMMANDS_ef725a = {
-  run: cmdRun_ef725a,
-  list: cmdList_ef725a,
-  version: cmdVersion_ef725a,
+const COMMANDS_fa91a9 = {
+  run: cmdRun_fa91a9,
+  list: cmdList_fa91a9,
+  version: cmdVersion_fa91a9,
 };
 
-function cmdRun_ef725a(positionals, opts) {
+function cmdRun_fa91a9(positionals, opts) {
   const task = positionals[0] || 'default';
   const output = opts.output || './output';
   console.log(`Running task: ${task}`);
   console.log(`Output: ${output}`);
-  console.log(`Instance: ef725a`);
+  console.log(`Instance: fa91a9`);
 }
 
-function cmdList_ef725a(positionals, opts) {
+function cmdList_fa91a9(positionals, opts) {
   const filter = opts.filter || '';
   const items = ['task-a', 'task-b', 'task-c'].filter(
     (t) => !filter || t.includes(filter)
@@ -31,12 +31,12 @@ function cmdList_ef725a(positionals, opts) {
   items.forEach((item) => console.log(`  - ${item}`));
 }
 
-function cmdVersion_ef725a() {
+function cmdVersion_fa91a9() {
   const pkg = require('./package.json');
-  console.log(`${pkg.name} v${pkg.version} (id: ef725a)`);
+  console.log(`${pkg.name} v${pkg.version} (id: fa91a9)`);
 }
 
-function printHelp_ef725a() {
+function printHelp_fa91a9() {
   console.log(`Usage: tool <command> [options]
 
 Commands:
@@ -64,12 +64,12 @@ function main() {
   });
 
   if (values.help || positionals.length === 0) {
-    printHelp_ef725a();
+    printHelp_fa91a9();
     process.exit(0);
   }
 
   const [cmd, ...rest] = positionals;
-  const handler = COMMANDS_ef725a[cmd];
+  const handler = COMMANDS_fa91a9[cmd];
   if (!handler) {
     console.error(`Unknown command: ${cmd}`);
     process.exit(1);
